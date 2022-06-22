@@ -66,17 +66,62 @@ section{
   align-content: center;
   align-items: center;
 }
-.titulo{
-  padding-top: 20px;
+.conteudo{
+  align-content: center;
+  align-items: center;
 }
-.titulo h5{
+.chamada h5{
   color: #80edff;
   font-size: 16px;
   font-weight: 500;
 }
-.foto-perfil{
+.titulo h1{
+  color: #fff;
+  font-weight: 600;
+}
+.foto-perfil img{
+  align-self: end;
+  height: auto;
   max-width: 530px;
+  vertical-align: middle;
+}
+.foto{
+  display: flex;
+  flex-direction: column;
 }
 .chamada{
-  padding: 20px 40px 100px 20px;
+  padding: 20px 40px 0 20px;
+}
+.button{
+  border-radius: 30px 30px 30px 30px;
+  height: 3.4rem;
+  background-color: #1ec012;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.button:hover{
+  background-color: #27c8f0;
+}
+.button-contato{
+  border-radius: 30px 30px 30px 30px;
+  height: 3.4rem;
+  background-color: #0fc3ee;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.button-contato:hover{
+  background-color: #27c8f0;
+}
+.subtitle p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
 }
